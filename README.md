@@ -15,6 +15,7 @@ A leaf is a node with no children.
 ---
 
 💡 Approach
+---
 We recursively collect all leaf values in left-to-right order using a helper function 🛠️ and compare the resulting vectors:
 
 Traverse each tree and collect all its leaf nodes into a vector 📦.
@@ -24,6 +25,7 @@ Compare the two vectors element by element 🔍.
 ---
 
 ⏱️ Time Complexity
+---
 O(n + m) where:
 
 n = number of nodes in root1
@@ -35,6 +37,7 @@ We visit every node once.
 ---
 
 💾 Space Complexity
+-
 O(h1 + h2 + L) where:
 
 h1, h2 = heights of the trees (for recursion stack)
@@ -44,6 +47,7 @@ L = number of leaf nodes (stored in vectors)
 ---
 
 👨‍💻 Author
+-
 
 Ridham Garg
 
